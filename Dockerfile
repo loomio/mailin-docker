@@ -1,4 +1,4 @@
-FROM node:10.15.1
+FROM node:16
 WORKDIR /app
 EXPOSE 25
 RUN apt-get update -qq
